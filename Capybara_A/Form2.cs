@@ -26,7 +26,22 @@ namespace Capybara_A
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                // Mendapatkan nilai NIM dari sel yang diklik
+                string nim = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
 
+                Form3 form3 = new Form3(nim);
+                form3.Show();
+            }
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
         }
     }
 }

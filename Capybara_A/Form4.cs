@@ -23,5 +23,12 @@ namespace Capybara_A
             this.nilaiTableAdapter.Fill(this.prodiTIDataSet1.Nilai);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form5 = new Form1();
+            form5.Show();
+            this.Hide();
+        }
     }
 }

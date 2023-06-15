@@ -12,9 +12,15 @@ namespace Capybara_A
 {
     public partial class Form3 : Form
     {
+        private string nim;
         public Form3()
         {
             InitializeComponent();
+        }
+
+        public Form3(string nim) : this()
+        {
+            this.nim = nim;
         }
 
         private void label2_Click(object sender, EventArgs e)

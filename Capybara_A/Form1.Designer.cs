@@ -47,9 +47,9 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(112, 139);
+            this.button1.Location = new System.Drawing.Point(112, 143);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(370, 351);
+            this.button1.Size = new System.Drawing.Size(389, 347);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -63,6 +63,7 @@
             this.button2.Size = new System.Drawing.Size(400, 342);
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
